@@ -70,8 +70,6 @@
 .aligned-text_center {
     text-align: center;
     letter-spacing: 25px;
-    /* margin-right: 35px;
-    margin-bottom: 30px; */
 }
 
 .aligned-text_right {
@@ -126,8 +124,6 @@
     top: 0;
     left: 0;
   }
-
-/* Lots */
 
 .lots {
     padding: 179px 24px 0 24px;
@@ -211,8 +207,6 @@
     position: relative;
     display: inline-block;
 }
-
-/* About */
 
 .about {
     padding: 146px 24px 366px 24px;
