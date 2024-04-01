@@ -2,7 +2,7 @@
 .header {
     font-size: 18px;
     font-weight: 400;
-    padding: 92px 24px 96px;
+    padding: 92px 24px 92px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
     gap: 31.68px;
     list-style: circle;
     text-underline-offset: 3px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-left: 30px;
     justify-content: space-between;
 }
@@ -24,7 +24,6 @@
 }
 
  .header_logo-image {
-    margin-top: 34px;
     margin-right: 150px;
     width: 148px;
     height: 105px;
@@ -35,7 +34,6 @@
     flex-direction: column;
     list-style: none;
     text-underline-offset: 3px;
-    padding-top: 35px;
     margin-right: 65px;
     font-size: 18px;
     font-weight: 400;
@@ -47,6 +45,7 @@
 }
 
 .cover { 
+    padding: 160px 50px 0 50px;
     position: relative;
     min-height: 757px;
     background: url(../images/cover.jpg) no-repeat center / cover;
@@ -54,7 +53,6 @@
 }
 
 .cover_title {
-    padding: 165px 50px 0 50px;
     color: white;
     text-transform: uppercase;
     position: relative;
@@ -73,19 +71,20 @@
 .aligned-text_left {
     text-align: left;
     letter-spacing: 20px;
+    padding-top: 10px;
 }
 
 .aligned-text_center {
     text-align: center;
     letter-spacing: 25px;
-    padding-top: 31px;
+    padding-top: 25px;
     padding-right: 29px;
 }
 
 .aligned-text_right {
     text-align: right;
     letter-spacing: 24px;
-    padding-right: 10px;
+    padding-right: 8px;
     padding-top: 20px;
 }
 
@@ -102,7 +101,7 @@
   display: flex;
   align-items: center;
   padding-top: 135px;
-  padding-left: 81px;
+  padding-left: 30px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
